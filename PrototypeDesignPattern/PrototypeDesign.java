@@ -29,8 +29,11 @@ abstract class BenAlienForce {
     }
 
     BenAlienForce(BenAlienForce b) {
-        this.isAlien = b.isAlien;
-        this.name = b.name;
+        if(b!=null){
+            this.isAlien = b.isAlien;
+            this.name = b.name;
+        }
+        
     }
 
     public abstract BenAlienForce clone();
@@ -44,7 +47,10 @@ class GhostFreak extends BenAlienForce {
 
     public GhostFreak(GhostFreak g) {
         super(g);
-        this.volume = g.volume;
+        if(g!=null){
+            this.volume = g.volume;
+        }
+        
     }
 
     @Override
@@ -62,7 +68,10 @@ class Fourarms extends BenAlienForce {
 
     public Fourarms(Fourarms g) {
         super(g);
-        this.volume = g.volume;
+        if(g!=null){
+            this.volume = g.volume;
+        }
+        
     }
 
     @Override
