@@ -9,8 +9,6 @@ public class AdapterPattern {
         System.out.println(ua.getBalance());
         p.pay(ua,10);
         System.out.println(ua.getBalance());
-
-
         
     }
 }
