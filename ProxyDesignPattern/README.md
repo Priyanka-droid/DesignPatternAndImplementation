@@ -1,8 +1,8 @@
-### Proxy Design Pattern
+## Proxy Design Pattern
 
 In proxy design pattern a proxy class is created that controls access to real object, and provides additional functionality to the object.
 
-Components in the code:
+### Components in the code:
 
 1. WeatherThirdParty: A replica of a third party api
 2. WeatherApi: An interface with some methods from WeatherThirdParty that are used in app
