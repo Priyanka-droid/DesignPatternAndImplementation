@@ -63,7 +63,7 @@ class TruckLogistic extends TransportLogistic {
 }
 
 // concrete creatorB
-class ShipLogisticc extends TransportLogistic {
+class ShipLogistic extends TransportLogistic {
     Mode createLogistic() {
         return new Ship();
     }
